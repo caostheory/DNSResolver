@@ -3,7 +3,7 @@
 A personal **Unbound DNS** configuration repository, ready for **AdGuard Home** or **Pi-hole** integration.  
 Includes ready-to-use configuration files and detailed setup instructions.
 
-![GitHub Repo Size](https://img.shields.io/github/repo-size/caostheory/DNSResolver?style=flat-square) ![License](https://img.shields.io/github/license/caostheory/DNSResolver?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/caostheory/DNSResolver?style=flat-square)
+![GitHub Repo Size](https://img.shields.io/github/repo-size/caostheory/DNSResolver) ![License](https://img.shields.io/github/license/caostheory/DNSResolver) ![Last Commit](https://img.shields.io/github/last-commit/caostheory/DNSResolver)
 
 ---
 
