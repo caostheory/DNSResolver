@@ -15,7 +15,7 @@ fi
 
 # Compare the downloaded file with the existing one
 if ! cmp -s "$ROOT_HINTS" "$TEMP_FILE"; then
-    echo "The root.hints file has been updated. Backup created and Unbound reloaded."
+    echo "The root.hints file has been updated and Unbound reloaded."
 
     # Replace the root.hints file with the updated version
     mv "$TEMP_FILE" "$ROOT_HINTS"
