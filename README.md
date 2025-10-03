@@ -63,7 +63,7 @@ Unlike a forwarder (which depends on external DNS servers), this setup runs as a
 
      ```bash
      sudo fetch -o /usr/local/etc/unbound/unbound.conf \
-     https://github.com/caostheory/DNSResolver/blob/main/unbound.conf
+     https://raw.githubusercontent.com/caostheory/DNSResolver/refs/heads/main/unbound.conf
      ```
 
    * Download Root Hints and Root Key
@@ -127,7 +127,7 @@ Unlike a forwarder (which depends on external DNS servers), this setup runs as a
    * Regularly update `root.hints` using `rootUpdate.sh` in a cronjob.
    ```bash
    sudo fetch -o /usr/local/sbin/rootUpdate.sh \
-   https://github.com/caostheory/DNSResolver/blob/main/rootUpdate.sh
+   https://raw.githubusercontent.com/caostheory/DNSResolver/refs/heads/main/rootUpdate.sh
 
    # Make the script executable
    sudo chmod +x /usr/local/sbin/rootUpdate.sh
