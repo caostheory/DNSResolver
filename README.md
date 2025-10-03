@@ -125,6 +125,7 @@ Unlike a forwarder (which depends on external DNS servers), this setup runs as a
 ## Tips <a name="tips"></a>
 
    * Regularly update `root.hints` using `rootUpdate.sh` in a cronjob.
+   
      ```bash
      sudo fetch -o /usr/local/sbin/rootUpdate.sh \
      https://raw.githubusercontent.com/caostheory/DNSResolver/refs/heads/main/rootUpdate.sh
