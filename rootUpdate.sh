@@ -5,7 +5,7 @@ ROOT_HINTS="/usr/local/etc/unbound/root.hints"
 TEMP_FILE="/tmp/root.hints.new"
 
 # Download the latest version of the root.hints file
-fetch -o "$TEMP_FILE" https://www.internic.net/domain/named.cache
+fetch -qo "$TEMP_FILE" https://www.internic.net/domain/named.cache
 
 # Check if the download was successful
 if [ $? -ne 0 ]; then
