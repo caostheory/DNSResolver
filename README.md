@@ -133,6 +133,14 @@ Unlike a forwarder (which depends on external DNS servers), this setup runs as a
      # Make the script executable
      sudo chmod +x /usr/local/sbin/rootUpdate.sh
      ```
+     Setting up cronjob to run once a day at 3AM:
+     ```bash
+     sudo crontab -e
+
+     0 3 * * * /usr/local/sbin/rootUpdate.sh > /dev/null 2>&1
+
+     ```
+
 ---
 
 Made with ❤️ by [caostheory](https://github.com/caostheory)
